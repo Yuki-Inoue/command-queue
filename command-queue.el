@@ -3,6 +3,7 @@
 ;; Copyright (C) 2016 by Yuki INOUE
 
 ;; Author: Yuki INOUE <inouetakahiroki at gmail.com>
+;; Package-Requires: ((emacs "24.3"))
 ;; Version: 0.0.1
 
 ;; This program is free software; you can redistribute it and/or modify
@@ -59,6 +60,7 @@
       (unless command-queue--process-running-flag
         (command-queue--start-next-command)))))
 
+;;;###autoload
 (defun command-queue-publish-command (command)
   (interactive "sCommand: ")
   (switch-to-buffer-other-window command-queue-buffer-name)
