@@ -4,6 +4,7 @@
 
 ;; Author: Yuki INOUE <inouetakahiroki at gmail.com>
 ;; Package-Requires: ((emacs "24.3"))
+;; URL: https://github.com/Yuki-Inoue/command-queue
 ;; Version: 0.0.1
 
 ;; This program is free software; you can redistribute it and/or modify
